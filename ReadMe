@@ -1,0 +1,11 @@
+A Location Finder app which gives you the current geographical location you are in.
+
+GpsService.java is the service class which runs continuously and updates us the location on user movement.
+
+MainActivity.java calls the service class GpsService.java.
+
+Geocode Service from google api is used to get user adress from latitude and longitude information.
+
+Note:-
+
+When you create the emulator set Api type to Google Api,Android api does not support Geocode.
